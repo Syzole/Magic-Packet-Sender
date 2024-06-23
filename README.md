@@ -21,8 +21,19 @@ If you want to use the script outside of the network of the computer dwyou must 
 
 
 ## To learn more:
+Here is a list of resources that I used to create this script:
+
+
+To make the magic packet:
 https://www.pdq.com/blog/wake-on-lan-wol-magic-packet-powershell/
 
+Windows winsock:
+https://docs.microsoft.com/en-us/windows/win32/winsock/complete-server-code
+
+
+## Project used for this
+nlohmann/json - JSON for Modern C++:
+https://json.nlohmann.me/
 
 ### Note:
 You may see a make test function in the script. This file was used to test diffrent packages and functions to see which one would work best. 
