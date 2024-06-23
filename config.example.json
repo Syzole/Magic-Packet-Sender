@@ -1,4 +1,5 @@
 {
+	"COMMENT": "this is a sample configuration file, you should rename it to config.json and fill in the correct values",
 	"ipAddress": "Global.Ip.Address",
 	"macAddress": "AB:CD:EF:GH:IJ:KL",
 	"port": 9
