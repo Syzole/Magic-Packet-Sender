@@ -132,6 +132,12 @@ int main()
     ifstream i("config.json");
     json data = json::parse(i);
 
+    if(data.empty())
+    {
+        cout << "Error: No data found in the config file!" << endl;
+        return 1;
+    }
+
     // Target MAC address in string format
     string macAdd = data["macAddress"];
 
