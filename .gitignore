@@ -1,0 +1,5 @@
+config.json
+*.o
+*.exe
+.vscode
+test.cpp
