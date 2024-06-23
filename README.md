@@ -19,6 +19,14 @@ This script sends a Wake-On-LAN (WOL) magic packet to a target device. The targe
 where "mac" is the MAC address of the target device, "ip" is the IP address of the target device, and "port" is the port number to send the magic packet to.
 If you want to use the script outside of the network of the computer dwyou must provide the global IP address of the target device not the local IP address.
 
+4. Use the make command to compile the script.
+
+5. Run the script with the following command:
+```bash
+./magicPacketSender.exe
+```
+
+
 
 ## To learn more:
 Here is a list of resources that I used to create this script:
